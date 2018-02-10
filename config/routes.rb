@@ -1,10 +1,12 @@
 Rails.application.routes.draw do
   
-  get 'producto/index'
+  get 'product/index'
 
-  get 'producto/lista'
+  get 'product/add'
 
-  get 'producto/editar'
+  get 'product/edit'
+
+ 
 
   root 'pages#index'
   get 'pages/index'
